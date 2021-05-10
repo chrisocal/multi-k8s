@@ -9,5 +9,5 @@ docker push chrisocal/multi-server:$SHA
 docker push chrisocal/multi-worker:$SHA
 kubectl apply -f k8s
 kubectl set image deployments/server-deployment server=chrisocal/multi-server:$SHA
-kubectl set image deployments/client-deployment server=chrisocal/multi-client:$SHA 
-kubectl set image deployments/worker-deployment server=chrisocal/multi-worker:$SHA
+kubectl set image deployments/client-deployment client=chrisocal/multi-client:$SHA 
+kubectl set image deployments/worker-deployment worker=chrisocal/multi-worker:$SHA
