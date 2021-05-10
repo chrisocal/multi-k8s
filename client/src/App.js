@@ -13,7 +13,7 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://www.linkedin.com/in/christopher-omar-caluag-7b155575/"
             target="_blank"
             rel="noopener noreferrer"
           >
