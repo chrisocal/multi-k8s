@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Kubernetes Deployment by Chris Caluag
+            K8s App by Chris Caluag
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
